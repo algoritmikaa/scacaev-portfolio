@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to left, rgb(25, 126, 221), purple, rgb(81, 25, 81));
+    padding: 50px;
+    margin-bottom: 15px;
+}
+
+header a {
+    background-color: rgb(81, 25, 81);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 3px solid rgb(6, 93, 255);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: rgb(45, 156, 69)
+}
+
+header a:hover {
+    background-color: blue;
+}
+
+footer {
+    background-image: linear-gradient(to right, red,orange,yellow);
+    padding: 10px;
+
+}
+
+footer a {
+    margin-left: 30px;
+}
+
+nav a {
+    margin: 10px;
+}
+
+p {
+    margin-left: 35px;
+}
+
+h1:hover {
+    background-image:linear-gradient(to left, purple, pink, blue);
+    transition: all 1s linear;
+}
